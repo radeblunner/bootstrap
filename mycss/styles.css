@@ -405,7 +405,7 @@ li{
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .header{
         display: flex;
         flex-direction: column;
@@ -416,7 +416,7 @@ li{
     }
     .header img{
         display: flex;
-        width: 250px;
+        width: 180px;
         /* margin: 0px; */
     }
     .navbar{
@@ -444,7 +444,7 @@ li{
         flex-wrap: wrap;
         align-content: center;
         font-family: Agrandir;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: #40525d;
         margin: 20px;
     }
