@@ -80,17 +80,6 @@ li{
     width: 95vw;
     border-radius: 40px;
 }
-/* .mycarousel{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} */
-/* .mycarousel img{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 95vw;
-} */
 .cards{
     display: flex;
     flex-direction: column;
@@ -133,6 +122,16 @@ li{
     justify-content: space-evenly;
     margin-top: 140px;
 }
+.servicios h1{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px; */
+    font-family: Agrandir;
+    font-size: 5rem;
+    color: #40525d;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
 .card-servicios{
     width: 10rem;
     background-color: #40525d;
@@ -158,6 +157,16 @@ li{
     font-size: 1.2rem;
     color: #f1e8d7;
 }
+.nosotros h1{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px; */
+    font-family: Agrandir;
+    font-size: 5rem;
+    color: #40525d;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .client-logos{
     display: flex;
     flex-wrap: wrap;
@@ -173,7 +182,7 @@ li{
     width: 420px;
     filter: none;
 }
-.clientes h2{
+.clientes h1{
     display: flex;
     justify-content: center;
     /* margin-left: 30px; */
@@ -301,6 +310,7 @@ li{
     }
     .card h2{
         /* margin: 30px; */
+        margin-left: 20px;
         font-family: Agrandir;
         font-size: 2rem;
         color: #f1e8d7;
@@ -309,7 +319,7 @@ li{
     .card p{
         font-family: Regular;
         color: #f1e8d7;
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.2rem;
         margin-left: 20px;
     }
@@ -318,6 +328,16 @@ li{
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin-top: 40px;
+    }
+    .servicios h1{
+        display: flex;
+        justify-content: center;
+        /* margin-left: 30px; */
+        font-family: Agrandir;
+        font-size: 2rem;
+        color: #40525d;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .card-servicios{
         width: 8rem;
@@ -339,6 +359,16 @@ li{
         font-family: Regular;
         font-size: 1.2rem;
         color: #f1e8d7;
+    }
+    .nosotros h1{
+        display: flex;
+        justify-content: center;
+        /* margin-left: 30px; */
+        font-family: Agrandir;
+        font-size: 2rem;
+        color: #40525d;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .client-logos{
         display: flex;
@@ -444,7 +474,7 @@ li{
         flex-wrap: wrap;
         align-content: center;
         font-family: Agrandir;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #40525d;
         margin: 20px;
     }
@@ -469,7 +499,7 @@ li{
         border: 0;
     }
     .card h2{
-        margin-left: 20px;
+        margin-left: 15px;
         margin-bottom: 10px;
         font-family: Agrandir;
         font-size: 1.2rem;
@@ -481,13 +511,23 @@ li{
         color: #f1e8d7;
         font-size: 0.6rem;
         line-height: 1rem;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .servicios{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         margin-top: 20px;
+    }
+    .servicios h1{
+        display: flex;
+        justify-content: center;
+        /* margin-left: 30px; */
+        font-family: Agrandir;
+        font-size: 1.2rem;
+        color: #40525d;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .card-servicios{
         width: 8rem;
@@ -509,6 +549,16 @@ li{
         font-family: Regular;
         font-size: 1.2rem;
         color: #f1e8d7;
+    }
+    .nosotros h1{
+        display: flex;
+        justify-content: center;
+        /* margin-left: 30px; */
+        font-family: Agrandir;
+        font-size: 1.2rem;
+        color: #40525d;
+        margin-top: 20px;
+        margin-bottom: 0px;
     }
     .client-logos{
         display: flex;
