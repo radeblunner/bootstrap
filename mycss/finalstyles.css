@@ -1,0 +1,530 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+@font-face {
+  font-family: Agrandir;
+  src: url(../fonts/Agrandir-GrandHeavy.otf); }
+
+@font-face {
+  font-family: Regular;
+  src: url(../fonts/Agrandir-Regular.otf); }
+
+/* ---------- Body sytles ---------- */
+.background-color {
+  background-color: #f1e8d7; }
+
+/* ---------- Header styles ---------- */
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 60px; }
+  .header img {
+    width: 600px;
+    margin: 30px;
+    transition: width 1s; }
+    .header img:hover {
+      width: 700px; }
+  .header a {
+    display: flex;
+    justify-content: center; }
+
+.navbar {
+  padding-bottom: 0;
+  justify-content: center; }
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-right: 20px; }
+  .navbar li {
+    margin: 20px;
+    font-family: Regular;
+    font-size: 2rem;
+    transition: font-size 1s; }
+    li .navbar li:hover {
+      font-size: 3rem; }
+
+/* ---------- Main styles ---------- */
+.main h1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  font-family: Agrandir;
+  font-size: 3.7rem;
+  color: #40525d;
+  margin: 50px; }
+
+.main img {
+  width: 95vw;
+  border-radius: 40px; }
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.card {
+  background-color: #40525d;
+  height: 30vh;
+  width: 98vw;
+  border-radius: 40px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  border: 0;
+  transition: height 1s; }
+  .card:hover {
+    height: 40vh; }
+  .card h2 {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Agrandir;
+    font-size: 3rem;
+    color: #f1e8d7; }
+  .card p {
+    font-family: Regular;
+    color: #f1e8d7;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-left: 30px; }
+
+.servicios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 0px; }
+  .servicios h1 {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px; */
+    font-family: Agrandir;
+    font-size: 5rem;
+    color: #40525d;
+    margin-top: 60px;
+    margin-bottom: 40px; }
+
+.card-servicios {
+  width: 10rem;
+  background-color: #40525d;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px; }
+  .card-servicios img {
+    border-radius: 20px; }
+  .card-servicios h2 {
+    font-family: Agrandir;
+    font-size: 2rem;
+    color: #f1e8d7;
+    transition: font-size 1s; }
+    .card-servicios h2:hover {
+      font-size: 2.3rem; }
+  .card-servicios p {
+    font-family: Regular;
+    font-size: 1.2rem;
+    color: #f1e8d7; }
+
+.nosotros h1 {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 30px; */
+  font-family: Agrandir;
+  font-size: 5rem;
+  color: #40525d;
+  margin-top: 20px;
+  margin-bottom: 0px; }
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .client-logos img {
+    width: 400px;
+    margin: 20px;
+    filter: grayscale(100%);
+    transition: width 1s; }
+    .client-logos img:hover {
+      width: 420px;
+      filter: none; }
+
+.clientes h1 {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 30px; */
+  font-family: Agrandir;
+  font-size: 5rem;
+  color: #40525d;
+  margin-top: 60px;
+  margin-bottom: 40px; }
+
+.myform {
+  font-family: Agrandir;
+  color: #40525d; }
+
+.mybutton {
+  color: #f1e8d7;
+  background-color: #40525d;
+  border-color: #40525d;
+  border-radius: 5px; }
+
+/* ---------- Footer styles ---------- */
+.footer {
+  background-color: #40525d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px; }
+  .footer img {
+    width: 65px;
+    margin: 10px; }
+  .footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    justify-content: center; }
+  .footer h6 {
+    color: #f1e8d7;
+    font-family: Regular;
+    font-size: 2rem; }
+
+.footer-devinfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 20px;
+  justify-content: center; }
+
+.footer-navbar {
+  margin: 20px; }
+
+/* ---------- Media Query 768px ---------- */
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+    .header a {
+      display: flex;
+      justify-content: center; }
+    .header img {
+      width: 400px;
+      margin: 30px; }
+  .navbar {
+    padding-bottom: 0;
+    justify-content: center; }
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      margin-right: 20px; }
+    .navbar li {
+      margin: 15px;
+      font-family: Regular;
+      font-size: 1.5rem; }
+  .main h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: Agrandir;
+    font-size: 2rem;
+    color: #40525d;
+    margin: 20px; }
+  .main img {
+    width: 95vw;
+    border-radius: 40px; }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+  .card {
+    background-image: url(../media/index-2.png);
+    height: 30vh;
+    width: 97vw;
+    border-radius: 40px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    border: 0; }
+    .card h2 {
+      /* margin: 30px; */
+      margin-left: 20px;
+      font-family: Agrandir;
+      font-size: 2rem;
+      color: #f1e8d7;
+      z-index: 100; }
+    .card p {
+      font-family: Regular;
+      color: #f1e8d7;
+      font-size: 1rem;
+      line-height: 1.2rem;
+      margin-left: 20px; }
+  .servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px; }
+    .servicios h1 {
+      display: flex;
+      justify-content: center;
+      /* margin-left: 30px; */
+      font-family: Agrandir;
+      font-size: 2rem;
+      color: #40525d;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+  .card-servicios {
+    width: 8rem;
+    background-color: #40525d;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px; }
+    .card-servicios img {
+      border-radius: 20px; }
+    .card-servicios h2 {
+      /* margin-left: 30px; */
+      font-family: Agrandir;
+      font-size: 2rem;
+      color: #f1e8d7; }
+    .card-servicios p {
+      font-family: Regular;
+      font-size: 1.2rem;
+      color: #f1e8d7; }
+  .nosotros h1 {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px; */
+    font-family: Agrandir;
+    font-size: 2rem;
+    color: #40525d;
+    margin-top: 0px;
+    margin-bottom: 0px; }
+  .client-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .client-logos img {
+      width: 300px;
+      margin: 20px;
+      filter: none;
+      transition: width 1s; }
+      .client-logos img :hover {
+        width: 420px;
+        filter: none; }
+  .clientes h2 {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px; */
+    font-family: Agrandir;
+    font-size: 3rem;
+    color: #40525d;
+    margin-top: 0px;
+    margin-bottom: 40px; }
+  .footer {
+    background-color: #40525d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px; }
+    .footer img {
+      width: 35px;
+      margin: 10px; }
+    .footer ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      justify-content: center; }
+    .footer h6 {
+      color: #f1e8d7;
+      font-family: Regular;
+      font-size: 1rem; }
+  .footer-devinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin: 20px;
+    justify-content: center; }
+  .footer-navbar {
+    margin: 20px; } }
+
+/* ---------- Media Query 360px ---------- */
+@media screen and (max-width: 360px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0px; }
+    .header img {
+      display: flex;
+      width: 180px;
+      /* margin: 0px; */ }
+  .navbar {
+    padding-top: 0;
+    padding-bottom: 0; }
+    .navbar ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 0;
+      margin-right: 0px;
+      padding-left: 0rem; }
+    .navbar li {
+      margin: 6px;
+      font-family: Regular;
+      font-size: 0.8rem; }
+  .main h1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: Agrandir;
+    font-size: 1rem;
+    color: #40525d;
+    margin: 20px; }
+  .main img {
+    width: 95vw;
+    border-radius: 15px; }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; }
+  .card {
+    background-image: url(../media/index-2.png);
+    height: 30vh;
+    width: 93vw;
+    border-radius: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border: 0; }
+    .card h2 {
+      margin-left: 15px;
+      margin-bottom: 10px;
+      font-family: Agrandir;
+      font-size: 1.2rem;
+      color: #f1e8d7;
+      z-index: 100; }
+    .card p {
+      font-family: Regular;
+      color: #f1e8d7;
+      font-size: 0.6rem;
+      line-height: 1rem;
+      margin-left: 10px; }
+  .servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px; }
+    .servicios h1 {
+      display: flex;
+      justify-content: center;
+      /* margin-left: 30px; */
+      font-family: Agrandir;
+      font-size: 1.2rem;
+      color: #40525d;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+  .card-servicios {
+    width: 8rem;
+    background-color: #40525d;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 15px; }
+    .card-servicios img {
+      border-radius: 20px; }
+    .card-servicios h2 {
+      /* margin-left: 30px; */
+      font-family: Agrandir;
+      font-size: 2rem;
+      color: #f1e8d7; }
+    .card-servicios p {
+      font-family: Regular;
+      font-size: 1.2rem;
+      color: #f1e8d7; }
+  .nosotros h1 {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px; */
+    font-family: Agrandir;
+    font-size: 1.2rem;
+    color: #40525d;
+    margin-top: 20px;
+    margin-bottom: 0px; }
+  .client-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .client-logos img {
+      width: 300px;
+      margin: 20px;
+      filter: none;
+      transition: width 1s; }
+      .client-logos img :hover {
+        width: 420px;
+        filter: none; }
+  .clientes h2 {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px; */
+    font-family: Agrandir;
+    font-size: 1.2rem;
+    color: #40525d;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .footer {
+    background-color: #40525d;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 40px; }
+    .footer img {
+      width: 35px;
+      margin: 10px; }
+    .footer ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      padding-left: 0rem; }
+    .footer h6 {
+      color: #f1e8d7;
+      font-family: Regular;
+      font-size: 1rem; }
+  .footer-devinfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin: 10px;
+    /* padding-left: 1.5rem; */ }
+  .footer-navbar {
+    margin: 0px; } }
