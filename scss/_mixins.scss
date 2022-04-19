@@ -1,0 +1,32 @@
+
+/* MAPS */
+
+$estilo-card:(
+    color: #40525d,
+    display: flex,
+    justify: center,
+);
+
+.card{
+    background-color: map-get($estilo-card, color);
+    display: map-get($estilo-card, display);
+    justify-content: map-get($estilo-card, justify);
+}
+
+/* EXTENDS */
+
+.card-servicios{
+    width: 10rem;
+    background-color: $color-pirmario;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* MIXINS */
+
+@mixin flexbox ($flex, $direction, $wrap){
+    display: $flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}

@@ -1,3 +1,17 @@
+/* MAPS */
+.card {
+  background-color: #40525d;
+  display: flex;
+  justify-content: center; }
+
+/* EXTENDS */
+.card-servicios {
+  width: 10rem;
+  background-color: #40525d;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
 /* ---------- Media Query 768px ---------- */
 @media screen and (max-width: 768px) {
   .header {
@@ -314,6 +328,20 @@
   .footer-navbar {
     margin: 0px; } }
 
+/* MAPS */
+.card {
+  background-color: #40525d;
+  display: flex;
+  justify-content: center; }
+
+/* EXTENDS */
+.card-servicios {
+  width: 10rem;
+  background-color: #40525d;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -393,7 +421,7 @@ li {
   align-items: center; }
 
 .card {
-  background-color: #40525d;
+  /*background-color: $color-pirmario; */
   height: 30vh;
   width: 98vw;
   border-radius: 40px;
@@ -432,25 +460,21 @@ li {
     margin-top: 60px;
     margin-bottom: 40px; }
 
-.card-servicios {
-  width: 10rem;
-  background-color: #40525d;
-  border-radius: 20px;
-  margin-top: 10px;
-  margin-bottom: 15px; }
-  .card-servicios img {
-    border-radius: 20px; }
-  .card-servicios h2 {
-    font-family: Agrandir;
-    font-size: 2rem;
-    color: #f1e8d7;
-    transition: font-size 1s; }
-    .card-servicios h2:hover {
-      font-size: 2.3rem; }
-  .card-servicios p {
-    font-family: Regular;
-    font-size: 1.2rem;
-    color: #f1e8d7; }
+.card-servicios img {
+  border-radius: 20px; }
+
+.card-servicios h2 {
+  font-family: Agrandir;
+  font-size: 2rem;
+  color: #f1e8d7;
+  transition: font-size 1s; }
+  .card-servicios h2:hover {
+    font-size: 2.3rem; }
+
+.card-servicios p {
+  font-family: Regular;
+  font-size: 1.2rem;
+  color: #f1e8d7; }
 
 .nosotros h1 {
   display: flex;

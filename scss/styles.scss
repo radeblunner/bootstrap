@@ -1,7 +1,10 @@
 
 @import "variables";
+@import "mixins";
 @import "query 768px";
 @import "query 360px";
+@import "mixins";
+
 
 
 *{
@@ -33,9 +36,10 @@ li{
 /* ---------- Header styles ---------- */
 
 .header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include flexbox (flex, row, wrap);
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 60px;
     
@@ -98,8 +102,9 @@ li{
     flex-wrap: wrap;
     align-items: center;
 }
+
 .card{
-    background-color: $color-pirmario;
+    /*background-color: $color-pirmario; */
     height: 30vh;
     width: 98vw;
     border-radius: 40px;
@@ -144,11 +149,12 @@ li{
     }
 }
 .card-servicios{
-    width: 10rem;
-    background-color: $color-pirmario;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    @extend .card-servicios;
+    // width: 10rem;
+    // background-color: $color-pirmario;
+    // border-radius: 20px;
+    // margin-top: 10px;
+    // margin-bottom: 15px;
 
     img{
         border-radius: 20px;
@@ -263,9 +269,10 @@ li{
 
 @media screen and (max-width: 768px) {
     .header{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        @include flexbox (flex, row, wrap);
+        // display: flex;
+        // flex-direction: row;
+        // flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 20px;
         margin-bottom: 40px;
@@ -362,11 +369,12 @@ li{
         }
     }  
     .card-servicios{
+        @extend .card-servicios;
         width: 8rem;
-        background-color: #40525d;
-        border-radius: 20px;
-        margin-top: 10px;
-        margin-bottom: 15px;
+        // background-color: #40525d;
+        // border-radius: 20px;
+        // margin-top: 10px;
+        // margin-bottom: 15px;
          
         img{
             border-radius: 20px;
@@ -466,9 +474,10 @@ li{
 
 @media screen and (max-width: 360px) {
     .header{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        @include flexbox (flex, column, wrap);
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: wrap;
         align-items: center;
         margin-top: 20px;
         margin-bottom: 0px;
@@ -563,11 +572,12 @@ li{
         }
     }
     .card-servicios{
+        @extend .card-servicios;
         width: 8rem;
-        background-color: #40525d;
-        border-radius: 20px;
+        // background-color: #40525d;
+        // border-radius: 20px;
         margin-top: 0px;
-        margin-bottom: 15px;
+        // margin-bottom: 15px;
 
         img{
             border-radius: 20px;
