@@ -1,0 +1,203 @@
+
+/* ---------- Media Query 768px ---------- */
+
+@media screen and (max-width: 768px) {
+    .header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+        a{
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            width: 400px;
+            margin: 30px;
+        }
+    }
+    .navbar{
+        padding-bottom: 0;
+        justify-content: center;
+        
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 0;
+            margin-right: 20px;
+        }
+        li{
+            margin: 15px;
+            font-family: Regular;
+            font-size: 1.5rem;
+        }
+    }
+    .main{
+        h1{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            font-family: Agrandir;
+            font-size: 2rem;
+            color: #40525d;
+            margin: 20px;
+        }
+        img{
+            width: 95vw;
+            border-radius: 40px;
+        }
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card{
+        background-image: url(../media/index-2.png);
+        height: 30vh;
+        width: 97vw;
+        border-radius: 40px;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        border: 0;
+
+        h2{
+            /* margin: 30px; */
+            margin-left: 20px;
+            font-family: Agrandir;
+            font-size: 2rem;
+            color: #f1e8d7;
+            z-index: 100;
+        }
+        p{
+            font-family: Regular;
+            color: #f1e8d7;
+            font-size: 1rem;
+            line-height: 1.2rem;
+             margin-left: 20px;
+        }
+    } 
+    .servicios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 40px;
+
+        h1{
+            display: flex;
+            justify-content: center;
+            /* margin-left: 30px; */
+            font-family: Agrandir;
+            font-size: 2rem;
+            color: #40525d;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }  
+    .card-servicios{
+        width: 8rem;
+        background-color: #40525d;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+         
+        img{
+            border-radius: 20px;
+        }
+        h2{
+            /* margin-left: 30px; */
+            font-family: Agrandir;
+            font-size: 2rem;
+            color: #f1e8d7;
+        }
+        p{
+            font-family: Regular;
+            font-size: 1.2rem;
+            color: #f1e8d7;
+        }
+    }
+    .nosotros{
+        h1{
+            display: flex;
+            justify-content: center;
+            /* margin-left: 30px; */
+            font-family: Agrandir;
+            font-size: 2rem;
+            color: #40525d;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    }
+    .client-logos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        img{
+            width: 300px;
+            margin: 20px;
+            filter: none;
+            transition: width 1s;
+                & :hover{
+                    width: 420px;
+                    filter: none;
+                }
+        }
+    }
+    .clientes{
+        h2{
+            display: flex;
+            justify-content: center;
+            /* margin-left: 30px; */
+            font-family: Agrandir;
+            font-size:3rem;
+            color: #40525d;
+            margin-top: 0px;
+            margin-bottom: 40px;
+        }
+    }
+    .footer{
+        background-color: #40525d;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 120px;
+        
+        img{
+            width: 35px;
+            margin: 10px;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 0;
+            justify-content: center;
+        }
+        h6{
+            color: #f1e8d7;
+            font-family: Regular;
+            font-size: 1rem;
+        }
+    }
+    .footer-devinfo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin: 20px;
+        justify-content: center;
+    }
+    .footer-navbar{
+        margin: 20px;
+    }
+}

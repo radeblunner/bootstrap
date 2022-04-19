@@ -1,3 +1,9 @@
+
+@import "variables";
+@import "query 768px";
+@import "query 360px";
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +27,7 @@ li{
 /* ---------- Body sytles ---------- */
 
 .background-color{
-    background-color: #f1e8d7;
+    background-color: $color-secundario
 }
 
 /* ---------- Header styles ---------- */
@@ -78,7 +84,7 @@ li{
         align-content: center;
         font-family: Agrandir;
         font-size: 3.7rem;
-        color: #40525d;
+        color: $color-pirmario;
         margin: 50px;
     }
     img{
@@ -93,7 +99,7 @@ li{
     align-items: center;
 }
 .card{
-    background-color: #40525d;
+    background-color: $color-pirmario;
     height: 30vh;
     width: 98vw;
     border-radius: 40px;
@@ -110,11 +116,11 @@ li{
         margin-left: 30px;
         font-family: Agrandir;
         font-size: 3rem;
-        color: #f1e8d7;
+        color: $color-secundario;
     }
      p{
         font-family: Regular;
-        color: #f1e8d7;
+        color: $color-secundario;
         font-size: 1.5rem;
         line-height: 1.5rem;
         margin-left: 30px;
@@ -132,14 +138,14 @@ li{
         /* margin-left: 30px; */
         font-family: Agrandir;
         font-size: 5rem;
-        color: #40525d;
+        color: $color-pirmario;
         margin-top: 60px;
         margin-bottom: 40px;
     }
 }
 .card-servicios{
     width: 10rem;
-    background-color: #40525d;
+    background-color: $color-pirmario;
     border-radius: 20px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -150,7 +156,7 @@ li{
     h2{
         font-family: Agrandir;
         font-size: 2rem;
-        color: #f1e8d7;
+        color: $color-secundario;
         transition: font-size 1s;
             &:hover{
                 font-size: 2.3rem;
@@ -159,7 +165,7 @@ li{
     p{
         font-family: Regular;
         font-size: 1.2rem;
-        color: #f1e8d7;
+        color: $color-secundario;
     }
 }
 .nosotros{
@@ -169,7 +175,7 @@ li{
         /* margin-left: 30px; */
         font-family: Agrandir;
         font-size: 5rem;
-        color: #40525d;
+        color: $color-secundario;
         margin-top: 20px;
         margin-bottom: 0px;
     }
@@ -197,26 +203,26 @@ li{
         /* margin-left: 30px; */
         font-family: Agrandir;
         font-size: 5rem;
-        color: #40525d;
+        color: $color-pirmario;
         margin-top: 60px;
         margin-bottom: 40px;
     }
 }
 .myform{
     font-family: Agrandir;
-    color: #40525d;
+    color: $color-pirmario;
 }
 .mybutton{
-    color: #f1e8d7;
-    background-color: #40525d;
-    border-color: #40525d;
+    color: $color-secundario;
+    background-color: $color-pirmario;
+    border-color: $color-pirmario;
     border-radius: 5px;
 }
 
 /* ---------- Footer styles ---------- */
 
 .footer{
-    background-color: #40525d;
+    background-color: $color-pirmario;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -236,7 +242,7 @@ li{
         justify-content: center;
     }
     h6{
-        color: #f1e8d7;
+        color: $color-secundario;
         font-family: Regular;
         font-size: 2rem;
     }
