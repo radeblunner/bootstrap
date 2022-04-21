@@ -139,7 +139,6 @@ li{
     h1{
         display: flex;
         justify-content: center;
-        /* margin-left: 30px; */
         font-family: Agrandir;
         font-size: 5rem;
         color: $color-primario;
@@ -177,7 +176,6 @@ li{
     h1{
         display: flex;
         justify-content: center;
-        /* margin-left: 30px; */
         font-family: Agrandir;
         font-size: 5rem;
         color: $color-secundario;
@@ -205,7 +203,6 @@ li{
     h1{
         display: flex;
         justify-content: center;
-        /* margin-left: 30px; */
         font-family: Agrandir;
         font-size: 5rem;
         color: $color-primario;
@@ -335,7 +332,6 @@ li{
         border: 0;
 
         h2{
-            /* margin: 30px; */
             margin-left: 20px;
             font-family: Agrandir;
             font-size: 2rem;
@@ -359,7 +355,6 @@ li{
         h1{
             display: flex;
             justify-content: center;
-            /* margin-left: 30px; */
             font-family: Agrandir;
             font-size: 2rem;
             color: #40525d;
@@ -368,18 +363,16 @@ li{
         }
     }  
     .card-servicios{
-        @extend .card-servicios;
         width: 8rem;
-        // background-color: #40525d;
-        // border-radius: 20px;
-        // margin-top: 10px;
-        // margin-bottom: 15px;
+        background-color: #40525d;
+        border-radius: 20px;
+        margin-top: 10px;
+        margin-bottom: 15px;
          
         img{
             border-radius: 20px;
         }
         h2{
-            /* margin-left: 30px; */
             font-family: Agrandir;
             font-size: 2rem;
             color: #f1e8d7;
@@ -394,7 +387,6 @@ li{
         h1{
             display: flex;
             justify-content: center;
-            /* margin-left: 30px; */
             font-family: Agrandir;
             font-size: 2rem;
             color: #40525d;
@@ -422,7 +414,6 @@ li{
         h2{
             display: flex;
             justify-content: center;
-            /* margin-left: 30px; */
             font-family: Agrandir;
             font-size:3rem;
             color: #40525d;
@@ -484,7 +475,6 @@ li{
         img{
             display: flex;
             width: 180px;
-            /* margin: 0px; */
         }
     }
     .navbar{
@@ -562,7 +552,6 @@ li{
         h1{
             display: flex;
             justify-content: center;
-            /* margin-left: 30px; */
             font-family: Agrandir;
             font-size: 1.2rem;
             color: #40525d;
@@ -571,18 +560,16 @@ li{
         }
     }
     .card-servicios{
-        @extend .card-servicios;
         width: 8rem;
-        // background-color: #40525d;
-        // border-radius: 20px;
+        background-color: #40525d;
+        border-radius: 20px;
         margin-top: 0px;
-        // margin-bottom: 15px;
+        margin-bottom: 15px;
 
         img{
             border-radius: 20px;
         }
         h2{
-            /* margin-left: 30px; */
             font-family: Agrandir;
             font-size: 2rem;
             color: #f1e8d7;
@@ -597,7 +584,6 @@ li{
         h1{
             display: flex;
             justify-content: center;
-            /* margin-left: 30px; */
             font-family: Agrandir;
             font-size: 1.2rem;
             color: #40525d;
@@ -625,7 +611,6 @@ li{
         h2{
             display: flex;
             justify-content: center;
-            /* margin-left: 30px; */
             font-family: Agrandir;
             font-size:1.2rem;
             color: #40525d;
@@ -664,7 +649,6 @@ li{
         flex-wrap: wrap;
         align-items: flex-end;
         margin: 10px;
-        /* padding-left: 1.5rem; */
     }
     .footer-navbar{
         margin: 0px;
