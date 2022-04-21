@@ -3,7 +3,6 @@
 @import "mixins";
 @import "query 768px";
 @import "query 360px";
-@import "mixins";
 
 
 
@@ -88,7 +87,7 @@ li{
         align-content: center;
         font-family: Agrandir;
         font-size: 3.7rem;
-        color: $color-pirmario;
+        color: $color-primario;
         margin: 50px;
     }
     img{
@@ -143,7 +142,7 @@ li{
         /* margin-left: 30px; */
         font-family: Agrandir;
         font-size: 5rem;
-        color: $color-pirmario;
+        color: $color-primario;
         margin-top: 60px;
         margin-bottom: 40px;
     }
@@ -209,26 +208,26 @@ li{
         /* margin-left: 30px; */
         font-family: Agrandir;
         font-size: 5rem;
-        color: $color-pirmario;
+        color: $color-primario;
         margin-top: 60px;
         margin-bottom: 40px;
     }
 }
 .myform{
     font-family: Agrandir;
-    color: $color-pirmario;
+    color: $color-primario;
 }
 .mybutton{
     color: $color-secundario;
-    background-color: $color-pirmario;
-    border-color: $color-pirmario;
+    background-color: $color-primario;
+    border-color: $color-primario;
     border-radius: 5px;
 }
 
 /* ---------- Footer styles ---------- */
 
 .footer{
-    background-color: $color-pirmario;
+    background-color: $color-primario;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
