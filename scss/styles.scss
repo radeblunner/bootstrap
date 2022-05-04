@@ -462,7 +462,7 @@ li{
 
 /* ---------- Media Query 360px ---------- */
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     .header{
         @include flexbox (flex, column, wrap);
         // display: flex;
