@@ -1,18 +1,17 @@
+/* ---------- Media Query 375px ---------- */
 
-/* ---------- Media Query 360px ---------- */
-
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     .header{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: wrap;
         align-items: center;
         margin-top: 20px;
         margin-bottom: 0px;
 
         img{
             display: flex;
-            width: 180px;
+            width: 200px;
         }
     }
     .navbar{
